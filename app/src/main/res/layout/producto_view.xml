@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/producto_img"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:src="@drawable/caramelfrap"
+        android:layout_marginLeft="15dp"
+        />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/producto_nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Caramel Frap"
+            />
+        
+        <TextView
+            android:id="@+id/producto_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descripción del producto"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/producto_precio"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="$5.00"
+        />
+
+
+
+</LinearLayout>
